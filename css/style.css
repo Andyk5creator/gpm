@@ -2998,6 +2998,11 @@ input:-webkit-autofill:active {
   .newsletter__title {
     margin-bottom: 2.75rem;
   }
+
+  .form-newsletter__btn {
+    padding: 0.625rem 1.5rem;
+    border-radius: 0.5rem 0 0 0.5rem;
+  }
 }
 
 @media (max-width: 47.93625em) {
@@ -3735,7 +3740,9 @@ input:-webkit-autofill:active {
 
   .form-newsletter__btn {
     min-width: 6.375rem;
+    padding: 0.625rem 1.5rem;
     font-size: 0.875rem;
+    border-radius: 0.5rem 0 0 0.5rem;
   }
 }
 
@@ -4084,6 +4091,8 @@ input:-webkit-autofill:active {
   .form-newsletter__btn {
     min-width: 5.75rem;
     font-size: 0.75rem;
+    padding: 0.625rem 1.5rem;
+    border-radius: 0.5rem 0 0 0.5rem;
   }
 }
 
