@@ -2233,7 +2233,7 @@ input:-webkit-autofill:active {
 
   [data-dropdown] [data-dropdown-body] {
     position: absolute;
-    top: 100%;
+    top: calc(100% + 2.5rem);
     left: 0;
     z-index: 15;
     -webkit-transition: 0.3s ease;
