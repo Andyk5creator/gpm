@@ -788,6 +788,9 @@ section {
 .theme-switch {
   border-radius: 1.5rem;
   overflow: hidden;
+  width: 3.25rem;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -3038,6 +3041,10 @@ input:-webkit-autofill:active {
 
   .header__logo {
     max-width: 2.5rem;
+  }
+
+  .header__right [data-da] {
+    display: none;
   }
 
   .header__btns {
