@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>@@title</title>
+	<meta charset="UTF-8" />
+	<meta name="format-detection" content="telephone=no">
+	</meta>
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/x180.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/x16.png">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20231022170832">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+	<div class="wrapper">
+		<header data-scroll="40" class="header">
+			<div class="header__container">
+				<div class="header__left">
+					<a href="" class="header__logo"><img src="img/logo.svg" alt="link to home page"></a>
+					<nav data-menu="md" class="menu">
+						<div class="menu__content">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<div data-dropdown="md" class="menu__dropdown dropdown-menu _dropdown-triangle">
+										<button type="button" aria-label="dropdown" data-dropdown-btn class="dropdown-menu__toggle">
+											<span>Products</span>
+											<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 9" fill="currentColor">
+												<path fill-rule="evenodd" clip-rule="evenodd" d="M7.00008 3.41414L1.70718 8.70703L0.292969 7.29282L7.00008 0.585711L13.7072 7.29282L12.293 8.70703L7.00008 3.41414Z" />
+											</svg>
+										</button>
+										<ul data-dropdown-body hidden class="dropdown-menu__body  ">
+											<svg class="dropdown-triangle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31 20" fill="currentColor">
+												<path d="M14.0212 1.62427C14.8145 0.752848 16.1856 0.752849 16.9789 1.62427L30.2068 16.1535C31.3762 17.4379 30.4649 19.4999 28.728 19.4999H2.27212C0.535141 19.4999 -0.37613 17.4379 0.793238 16.1535L14.0212 1.62427Z" />
+											</svg>
+											<li class="dropdown-menu__item">
+												<a href="">
+													<img src="img/icons/link.svg" alt="GPM Link">
+													<span>GPM Link</span>
+												</a>
+											</li>
+											<li class="dropdown-menu__item">
+												<a href="">
+													<img src="img/icons/team.svg" alt="GPM for Businesses and Teams">
+													<span>GPM for Businesses and Teams</span>
+												</a>
+											</li>
+											<li class="dropdown-menu__item">
+												<a href="">
+													<img src="img/icons/shop.svg" alt="GPM Mall">
+													<span>GPM Mall</span>
+												</a>
+											</li>
+											<li class="dropdown-menu__item">
+												<a href="">
+													<img src="img/icons/travel.svg" alt="GPM Travel">
+													<span>GPM Travel</span>
+												</a>
+											</li>
+											<li class="dropdown-menu__item">
+												<a href="">
+													<img src="img/icons/token.svg" alt="GPM Token">
+													<span>GPM Token</span>
+												</a>
+											</li>
+											<li class="dropdown-menu__item">
+												<a href="">
+													<img src="img/icons/reseller.svg" alt="GPM Reseller">
+													<span>GPM Reseller</span>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</li>
+								<li class="menu__item"><a class="menu__link" href="">Contact us</a></li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+				<div class="header__right">
+					<div data-da=".menu__content,md,2" data-language class="header__language language">
+						<button data-language-button type="button" aria-label="language" class="language__current">
+							<img src="img/icons/flag-en.svg" alt="english">
+						</button>
+						<ul hidden data-language-body class="language__body ">
+							<svg class="dropdown-triangle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31 20" fill="currentColor">
+								<path d="M14.0212 1.62427C14.8145 0.752848 16.1856 0.752849 16.9789 1.62427L30.2068 16.1535C31.3762 17.4379 30.4649 19.4999 28.728 19.4999H2.27212C0.535141 19.4999 -0.37613 17.4379 0.793238 16.1535L14.0212 1.62427Z" />
+							</svg>
+
+							<li class="language__item current"><a data-locale="en" href="">
+									<img src="img/icons/flag-en.svg" alt="spanish">
+								</a>
+							</li>
+							<li class="language__item"><a data-locale="sp" href="">
+									<img src="img/icons/flag-sp.svg" alt="spanish">
+								</a>
+							</li>
+							<li class="language__item"><a data-locale="fr" href="">
+									<img src="img/icons/flag-fr.svg" alt="spanish">
+								</a>
+							</li>
+						</ul>
+					</div>
+					<button data-switch-theme type="button" data-lottie="./files/theme-switch.json" class="header__theme theme-switch"></button>
+					<div data-da=".menu__content,md,1	" class="header__btns">
+						<a href="" class="header__btn btn btn_secondary">Sign in</a>
+						<a href="" class="header__btn btn">Register</a>
+					</div>
+					<button data-menu-icon type="button" aria-label="menu" class="icon-menu">
+						<div></div>
+						<div></div>
+						<div></div>
+					</button>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<script>
+				! function() {
+					let e = document.documentElement,
+						t = localStorage.getItem("user-theme");
+					t ? e.classList.add(t) : e.classList.add("dark")
+				}();
+			</script>
+			<section class="hero">
+				<div class="hero__container">
+					<div data-watch="top" data-watch-once class="hero__text-wrap slide-02s">
+						<h1 class="display-1 hero__title">Experience
+							the Power of Digital<span class="accent-text"> Business</span> Profiles!
+						</h1>
+						<div class="hero__text">
+							<p>And discover the added perks.</p>
+						</div>
+						<div data-watch="top" data-watch-once data-da=".hero__container,md" class="hero__btn slide-04s">
+							<a href="" class="btn">Get started for free</a>
+
+						</div>
+					</div>
+					<div data-watch="top" data-watch-once class="hero__img-wrap fade-04s">
+						<picture>
+							<source srcset="img/hero/01-mobile.png" type="image/png" media="(max-width: 47.93625em)">
+							<source srcset="img/hero/01.png" type="image/png" media="(min-width: 47.93625em)">
+							<img data-src="img/hero/01.png" alt="Experience
+							the Power of Digital Business Profiles!
+							">
+						</picture>
+					</div>
+				</div>
+			</section>
+			<section class="profile">
+				<div class="profile__container">
+					<div class="profile__text-wrap ">
+						<h2 data-watch="top" data-watch-once class="display-2 profile__title slide-02s">Create your personal or
+							business profile in less than two minutes.</h2>
+						<div data-watch="top" data-watch-once class="profile__text text-gap slide-03s">
+							<p>Create a profile for free and start enjoying a range of benefits! Our platform provides a social
+								network exclusively for users, giving you the opportunity to connect with like-minded professionals end
+								expand your network. You will also be able to access exclusive discounts on selected products. </p>
+						</div>
+						<div data-watch="top" data-watch-once data-da=".profile__container,lg" class="slide-04s">
+							<a href="" class="btn profile__btn">Get started for free</a>
+						</div>
+					</div>
+					<div class="profile__img-wrap ">
+						<picture><source data-srcset="img/profile/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/profile/01.png" alt="Create your personal or business profile in less than two minutes."></picture>
+					</div>
+				</div>
+			</section>
+			<section data-prlx-parent class="cta">
+				<div class="cta__container">
+					<div class="cta__bg-trees trees-cta">
+						<div class="trees-cta__tree trees-cta__left">
+							<div data-prlx data-coefficient="38">
+								<picture><source data-srcset="img/cta/bg-trees.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/cta/bg-trees.png" alt=""></picture>
+
+							</div>
+						</div>
+						<div class="trees-cta__tree trees-cta__right">
+							<div data-prlx data-coefficient="38" data-direction="0">
+								<picture><source data-srcset="img/cta/bg-trees.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/cta/bg-trees.png" alt=""></picture>
+
+							</div>
+						</div>
+					</div>
+					<div data-watch="top" data-watch-once class="cta__card">
+						<h2 class="cta__title display-3">Get an NFC card and link it to your profile. We plant a tree for each card!
+						</h2>
+						<div class="cta__right">
+							<div class="cta__decor-card decor-card-cta">
+								<div class="decor-card-cta__logo"><img data-src="img/logo.svg" alt=""></div>
+								<div class="decor-card-cta__text">
+									<div class="decor-card-cta__title">Andrea Johns</div>
+									<div>Interior Designer</div>
+								</div>
+							</div>
+
+							<div class="cta__tree">
+								<div data-prlx-mouse data-prlx-cx="106" data-prlx-cy="243">
+
+									<picture><source data-srcset="img/cta/tree.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/cta/tree.png" alt=""></picture>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="management">
+				<div class="management__container">
+					<div class="management__text-wrap">
+						<h2 data-watch="top" data-watch-once data-da=".management__container,lg,first" class="display-2 management__title slide-02s">Experience effortless
+							team management.</h2>
+						<div data-watch="top" data-watch-once class="management__text text-gap slide-03s">
+							<p>Make managing your team easier than ever with one <span class="text-nowrap"> dashboard - all in one
+									place!</span> <br>
+								Discover our white label CRM system for teams and companies that includes powerful statistics and social
+								network capabilities. Customize features to fit the specific needs of your team. This offers the
+								flexibility and convenience of a powerful CRM system without having to build it from scratch.</p>
+						</div>
+
+						<div data-watch="top" data-watch-once class="slide-04s">
+							<a href="" class="btn management__btn">Get started</a>
+
+						</div>
+					</div>
+					<div class="management__img-wrap">
+						<picture><source data-srcset="img/dashboard/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/dashboard/01.png" alt="Experience effortless team management."></picture>
+					</div>
+				</div>
+			</section>
+			<section class="get-up">
+				<div class="get-up__container">
+					<h2 class="get-up__title display-2">Get up to 70% discount on
+						selected products.</h2>
+					<div class="get-up__content">
+						<div class="get-up__text-wrap ">
+							<div data-watch="top" data-watch-once class="get-up__text slide-02s">
+								<p>Register now and take advantage of numerous discounted products. By signing up, you'll have access to
+									exclusive offers and be able to earn points by purchasing products or simply by being an active
+									member. Unlock even better deals when you reach higher loyalty levels and enjoy the rewards of being a
+									valued customer.</p>
+							</div>
+							<div data-watch="top" data-watch-once class="slide-03s">
+
+								<a href="" class="btn">Get started for free</a>
+							</div>
+						</div>
+						<div class="get-up__img-wrap">
+							<picture><source data-srcset="img/get-up/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/get-up/01.png" alt="Get up to 70% discount on selected products."></picture>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="hotels">
+				<div class="hotels__container">
+
+					<div class="hotels__text-wrap">
+						<h2 data-da=".hotels__container,lg,first" class="display-2 hotels__title">Over 2M hotels worldwide,
+							up to 70% off!</h2>
+						<div class="hotels__text">
+							<p>Take advantage of GPM.Travel now and get up to 70% off for your next stay. With an extensive selection
+								of
+								more than 2M hotels and resorts around the world, you'll be able to find the ideal destination for your
+								next holiday! Register now and start making the most of your vacation with GPM.Travel!</p>
+						</div>
+						<a href="" class="btn">Get started for free</a>
+					</div>
+					<div data-watch="top" data-watch-once data-watch-margin="0% 0% -125px 0%" class="hotels__img-wrap">
+						<div class="hotels__img-ibg"><picture><source data-srcset="img/hotels/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/hotels/01.jpg" alt="over 2m hotels worldwide"></picture></div>
+						<div class="hotels__img-ibg"><picture><source data-srcset="img/hotels/02.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/hotels/02.jpg" alt="up to 70% off!"></picture></div>
+					</div>
+				</div>
+			</section>
+			<section class="give-you">
+				<div class="give-you__container">
+					<h2 class="display-2 give-you__title">Go further - get an NFT that gives you up to 300% per year!</h2>
+					<div class="give-you__content">
+						<div class="give-you__text-wrap">
+							<div class="give-you__text text-gap">
+								<p>Discover our NFT collection designed to provide up to 1000% return on your investment annually. With
+									NFTs, you can experience true ownership of digital assets and have the opportunity to maximize your
+									profits with referrals. Have some fun and laverage on the potential of NFTs!</p>
+							</div>
+							<a href="" class="btn">Learn more</a>
+						</div>
+						<div class="give-you__img-cards">
+							<div data-watch="top" data-watch-once data-root-margin="0% 0% -200px 0%">
+
+								<div data-clone class="give-you__card card-give-you">
+									<div class="card-give-you__img">
+										<picture><source data-srcset="img/give-you/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/give-you/01.png" alt="NFT that gives you up to 300% per year!"></picture>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="become">
+				<div class="become__container">
+					<div data-watch="top" data-watch-once class="slide-02s">
+						<h2 class="display-2 become__title">Become a reseller and start earning now.</h2>
+						<div class="become__text">
+							<p>Become a GPM.Team reseller by launching your own branded Digital Business Card Platform for Businesses
+								&
+								Teams in days and start earning up to 65% on your customers' subscriptions and up to 35% on customers'
+								product purchases.</p>
+						</div>
+					</div>
+					<div data-watch="top" data-watch-once class="become__img-ibg slide-03s">
+						<picture><source data-srcset="img/became/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/became/01.jpg" alt="start earning now."></picture>
+					</div>
+					<div data-watch="top" data-watch-once class="slide-04s">
+
+						<a href="" class="btn">Learn more</a>
+					</div>
+				</div>
+			</section>
+			<section class="roadmap">
+				<div class="roadmap__container">
+					<h2 class="roadmap__title display-2">Roadmap</h2>
+					<div class="roadmap__content">
+						<div class="roadmap__img-wrap">
+							<picture>
+								<source srcset="img/roadmap/roadmap-horizontal.png" media="(min-width: 767.98px)">
+								<source srcset="img/roadmap/roadmap-vertical.png" media="(max-width: 767.98px)">
+								<img data-src="img/roadmap/roadmap-horizontal.png" alt="">
+							</picture>
+						</div>
+						<div class="roadmap__items slide-items-02s">
+							<div data-watch="top" data-watch-once class="roadmap__item item-roadmap ">
+								<div class="item-roadmap__label item-roadmap__label_green">q1</div>
+								<div class="item-roadmap__text">KYC integration
+									KYC integration
+								</div>
+							</div>
+							<div data-watch="top" data-watch-once class="roadmap__item item-roadmap ">
+								<div class="item-roadmap__label item-roadmap__label_orange">q2</div>
+								<div class="item-roadmap__text">KYC integration
+									KYC integration
+								</div>
+							</div>
+							<div data-watch="top" data-watch-once class="roadmap__item item-roadmap ">
+								<div class="item-roadmap__label item-roadmap__label_purple">q3</div>
+								<div class="item-roadmap__text">KYC integration
+									KYC integration
+								</div>
+							</div>
+							<div data-watch="top" data-watch-once class="roadmap__item item-roadmap ">
+								<div class="item-roadmap__label item-roadmap__label_yellow">q4</div>
+								<div class="item-roadmap__text">KYC integration
+									KYC integration
+								</div>
+							</div>
+							<div data-watch="top" data-watch-once class="roadmap__item item-roadmap ">
+								<div class="item-roadmap__label item-roadmap__label_blue">q1</div>
+								<div class="item-roadmap__text">KYC integration
+									KYC integration
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="faq">
+				<div class="faq__container">
+					<h2 class="display-2 faq__title">FAQ</h2>
+					<div data-spollers class="faq__items">
+						<details data-watch="top" data-watch-once class="faq__item item-faq">
+							<summary class="item-faq__title">
+								<div class="item-faq__line"></div>
+								<div class="item-faq__line item-faq__line_vertical"></div>
+								<h3 class="display-4">What is my current available balance?</h3>
+							</summary>
+							<div class="item-faq__body">
+								<div>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+										et dolore magna aliqua.
+									</p>
+
+								</div>
+							</div>
+						</details>
+						<details data-watch="top" data-watch-once class="faq__item item-faq">
+							<summary class="item-faq__title">
+								<div class="item-faq__line"></div>
+								<div class="item-faq__line item-faq__line_vertical"></div>
+								<h3 class="display-4">Recent account transactions?</h3>
+							</summary>
+							<div class="item-faq__body">
+								<div>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+										et dolore magna aliqua.
+									</p>
+
+								</div>
+							</div>
+						</details>
+						<details data-watch="top" data-watch-once class="faq__item item-faq">
+							<summary class="item-faq__title">
+								<div class="item-faq__line"></div>
+								<div class="item-faq__line item-faq__line_vertical"></div>
+								<h3 class="display-4">Fees for fund transfers?</h3>
+							</summary>
+							<div class="item-faq__body">
+								<div>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+										et dolore magna aliqua.
+									</p>
+
+								</div>
+							</div>
+						</details>
+						<details data-watch="top" data-watch-once class="faq__item item-faq">
+							<summary class="item-faq__title">
+								<div class="item-faq__line"></div>
+								<div class="item-faq__line item-faq__line_vertical"></div>
+								<h3 class="display-4">Available investments and interest rates?</h3>
+							</summary>
+							<div class="item-faq__body">
+								<div>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+										et dolore magna aliqua.
+									</p>
+
+								</div>
+							</div>
+						</details>
+					</div>
+				</div>
+			</section>
+			<section class="contact">
+				<div class="contact__container">
+					<h2 class="display-2 contact__title">Contact us</h2>
+					<form action="" class="contact__form form-contact">
+						<div class="form-contact__inputs">
+							<div class="form-contact__input-wrap">
+								<input autocomplete="off" data-required type="text" name="form[]" class="form-contact__input" placeholder="Your Name/Company">
+							</div>
+							<div class="form-contact__input-wrap">
+								<input autocomplete="off" data-required="email" type="text" name="form[]" class="form-contact__input" placeholder="Your Email">
+							</div>
+							<div class="form-contact__input-wrap">
+								<textarea data-autoheight autocomplete="off" name="form[]" class="form-contact__textarea" placeholder="Your Message"></textarea>
+							</div>
+						</div>
+						<button type="submit" aria-label="submit" class="form-contact__btn btn">Submit</button>
+					</form>
+				</div>
+			</section>
+			<section class="newsletter">
+				<div class="newsletter__container">
+					<div data-watch="top" data-watch-once class="newsletter__card slide-02s">
+						<h2 class="display-3 newsletter__title">Join our newsletter.</h2>
+						<form action="" class="newsletter__form form-newsletter">
+							<div class="form-newsletter__input-wrap">
+								<input autocomplete="off" data-required="email" data-error="Enter correct email" type="text" name="form[]" class="form-newsletter__input" placeholder="Your Email">
+							</div>
+							<button type="submit" aria-label="submit" class="form-newsletter__btn btn">Submit</button>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<nav data-spollers="md" class="footer__menu menu-footer">
+					<details class="menu-footer__column">
+						<summary class="display-4 menu-footer__title">Language</summary>
+						<div class="menu-footer__body">
+							<div data-language class="footer__language language-footer">
+								<button data-language-button type="button" aria-label="language" class="language-footer__current">
+									<img src="img/icons/flag-en.svg" alt="english">
+									<span>English</span>
+								</button>
+								<ul hidden data-language-body class="language-footer__body ">
+									<li><a data-locale="en" class="language-footer__link current" href="">
+											<img src="img/icons/flag-en.svg" alt="spanish">
+											<span>English</span>
+										</a>
+									</li>
+									<li><a data-locale="sp" class="language-footer__link" href="">
+											<img src="img/icons/flag-sp.svg" alt="spanish">
+											<span>Spanish</span>
+										</a>
+									</li>
+									<li><a data-locale="fr" class="language-footer__link" href="">
+											<img src="img/icons/flag-fr.svg" alt="spanish">
+											<span>French</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</details>
+					<details class="menu-footer__column">
+						<summary class="display-4 menu-footer__title">GPM Products</summary>
+						<div class="menu-footer__body">
+							<ul class="menu-footer__list">
+								<li class="menu-footer__item"><a href="" class="menu-footer__link">GPM Link</a></li>
+								<li class="menu-footer__item"><a href="" class="menu-footer__link">GPM for Businesses and Teams</a></li>
+								<li class="menu-footer__item"><a href="" class="menu-footer__link">GPM Mall</a></li>
+								<li class="menu-footer__item"><a href="" class="menu-footer__link">GPM Travel</a></li>
+								<li class="menu-footer__item"><a href="" class="menu-footer__link">GPM Token</a></li>
+								<li class="menu-footer__item"><a href="" class="menu-footer__link">GPM Reseller</a></li>
+							</ul>
+						</div>
+					</details>
+					<details class="menu-footer__column">
+						<summary class="display-4 menu-footer__title">Trust & Legal</summary>
+						<div class="menu-footer__body">
+							<ul class="menu-footer__list">
+								<li class="menu-footer__item"><a href="" class="menu-footer__link">Privacy Policy</a></li>
+								<li class="menu-footer__item"><a href="" class="menu-footer__link">Terms and Conditions</a></li>
+							</ul>
+						</div>
+					</details>
+
+				</nav>
+				<div class="footer__bottom">Copyright © 2023 All rights reserved</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20231022170832"></script>
+</body>
+
+</html>
