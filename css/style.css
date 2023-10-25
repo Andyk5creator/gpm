@@ -2226,7 +2226,7 @@ input:-webkit-autofill:active {
           transform: translateY(-100%);
 }
 
-@media (min-width: 47.93625em) {
+@media (min-width: 47.99875em) {
   [data-dropdown] {
     position: relative;
   }
@@ -2236,8 +2236,10 @@ input:-webkit-autofill:active {
     top: calc(100% + 2.5rem);
     left: 0;
     z-index: 15;
-    -webkit-transition: 0.3s ease;
-    transition: 0.3s ease;
+    -webkit-transition: opacity 0.3s ease, -webkit-transform 0.3s ease;
+    transition: opacity 0.3s ease, -webkit-transform 0.3s ease;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    transition: opacity 0.3s ease, transform 0.3s ease, -webkit-transform 0.3s ease;
     pointer-events: none;
     -webkit-transform: translate(0px, 10%) scale(0.95);
         -ms-transform: translate(0px, 10%) scale(0.95);
@@ -2266,7 +2268,9 @@ input:-webkit-autofill:active {
         -ms-transform: rotate(-180deg);
             transform: rotate(-180deg);
   }
+}
 
+@media (min-width: 47.93625em) {
   ._dropdown-open .dropdown-menu__toggle {
     color: var(--color-purple);
   }
