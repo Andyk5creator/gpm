@@ -1782,7 +1782,7 @@ section {
   position: relative;
 }
 
-.item-faq._watcher-view::before {
+._watcher-view .item-faq::before {
   width: 100%;
 }
 
