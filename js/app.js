@@ -14796,7 +14796,7 @@
                 }
                 function BodyToggle(dropdownBlock) {
                     const dropdownBody = dropdownBlock.querySelector(dropdownBodySelector);
-                    const timeOut = getTransitionDuration(dropdownBody);
+                    const timeOut = 300;
                     if (!dropdownBlock.classList.contains(dropdownOpenSelector)) {
                         dropdownBody.hidden = false;
                         setTimeout((() => {
