@@ -3,6 +3,7 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:500,800&display=swap);
 
 :root {
+  color-scheme: dark;
   --color-100: #fff;
   --color-300: #221f2c;
   --color-200: #393547;
@@ -12,6 +13,7 @@
 }
 
 .light {
+  color-scheme: light;
   --color-100: #2f2f35;
   --color-300: #f8ffff;
   --color-200: rgba(255, 255, 255, 0.9);
