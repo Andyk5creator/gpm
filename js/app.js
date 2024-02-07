@@ -14810,7 +14810,7 @@
                     }
                 }
                 function spollerBodyToggle(dropdownBlock) {
-                    const duration = dropdownBlock.dataset.spollerDuration ? +dropdownBlock.dataset.spollerDuration : 500;
+                    const duration = dropdownBlock.dataset.spollerDuration ? +dropdownBlock.dataset.spollerDuration : 300;
                     const dropdownBody = dropdownBlock.querySelector(dropdownBodySelector);
                     dropdownBlock.classList.toggle(dropdownOpenSelector);
                     slideToggle(dropdownBody, duration, true);
